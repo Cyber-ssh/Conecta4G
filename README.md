@@ -26,25 +26,6 @@ apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://git
 <li>Gerenciamento de usuários</li>
 </ol>
 
-<h3>☑️ Configurações na source</h3> <br>
-
-<ol>
-<li>Faça o upload do arquivo <b>painel.sql</b> para o seu banco de dados </li>
-<li>Edite o arquivo de conexão com o banco de dados localizado em: <br>
-<b>config/config.php</b><br><br>
-<b>NOME_SERVER_DB</b> (host do seu banco de dados)<br>
-<b>USUARIO_DB</b> (usuário do seu banco de dados)<br>
-<b>SENHA_DB</b> (senha do seu banco de dados)<br>
-<b>NOME_DB</b> (nome do seu banco de dados)
-</li><br>
-<center>
-<img src="https://i.ibb.co/gjQGFML/config.png"></center><br>
-<br><br>
-<li>Altere o link do site no arquivo <b>conecta.sql</b> antes de fazer o upload para o banco de dados</li> <br>
-</ol>
-<center>
-<img src="https://i.ibb.co/ypbQJQM/conecta.png"></center><br>
-
 <h3>☑️ Configurações no app</h3> <br>
 <ol>
   <li>No arquivo config.json em <b>"UrlUpdate":</b> adicione a url do seu site /update/pasta/config <br></li>
