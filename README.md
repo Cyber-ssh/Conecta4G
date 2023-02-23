@@ -3,7 +3,7 @@
 ⚠ VPS RECOMENDADA PARA PAINEL WEB: https://www.avirahost.com.br/aff.php?aff=108 ⚠</br>
 <b>👉 SISTEMA SUPORTADO (UBUNTU 18)</b>
 ```
-apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://github.com/JeanRocha91x/PainelConecta4G/raw/main/install4g.sh)
+apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://github.com/Cyber-ssh/Conecta4G/raw/main/install4g.sh)
 ```
 
 <h2><p align="center">Projeto 100% gratuito !<br>Não compre de ninguém !</p></h2>
@@ -29,7 +29,7 @@ apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://git
 <h3>☑️ Configurações no app</h3> <br>
 <ol>
   <li>No arquivo config.json em <b>"UrlUpdate":</b> adicione a url do seu site /update/pasta/config <br></li>
-  Exemplo: <b>http://site.xyz/update/pasta/config</b></li>
+  Exemplo: <b>http://cyberssh.online/update/pasta/config</b></li>
   <li>Em versão deixe apenas o número 1</li>
   <li>Não precisa configurar mais nada, só isso !</li>
   </ol>
@@ -43,6 +43,6 @@ apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://git
 <li>Para alterar o titulo do painel vá em <b>configurações do site</b> e altere o Titulo do site do logotipo</li>
 </ol><br>
 <h3>☑️ Outros</h3> <br>
-Para informar bugs e sugestões: https://t.me/Davidsdy <br>
+Para informar bugs e sugestões: https://t.me/Cyberssh23 <br>
 
 

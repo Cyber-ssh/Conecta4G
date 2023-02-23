@@ -54,11 +54,11 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 chmod +x /usr/local/bin/composer
 cd /var/www/html || exit
-wget https://github.com/JeanRocha91x/PainelConecta4G/raw/main/painelwebconecta4g.zip > /dev/null 2>&1
+wget https://github.com/Cyber-ssh/Conecta4G/raw/main/Conecta4G > /dev/null 2>&1
 apt-get install unzip > /dev/null 2>&1
-unzip painelwebconecta4g.zip > /dev/null 2>&1
+unzip Conecta4G > /dev/null 2>&1
 chmod -R 777 /var/www/html
-rm painelwebconecta4g.zip index.html > /dev/null 2>&1
+rm Conecta4G index.html > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer install > /dev/null 2>&1
 (echo yes; echo yes; echo yes; echo yes) | composer require phpseclib/phpseclib:~2.0 > /dev/null 2>&1
 systemctl restart mysql
